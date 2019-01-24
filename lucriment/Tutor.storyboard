@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pjp-qR-LB7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nlo-Yf-ZK2">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="pjp-qR-LB7" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="knU-pC-X8E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.12941176469999999" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.12941176469999999" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gQj-9H-cnk" kind="relationship" relationship="viewControllers" id="w45-9i-c1Q"/>
+                        <segue destination="Fln-q9-Lve" kind="relationship" relationship="viewControllers" id="36n-9w-mH4"/>
+                        <segue destination="lol-VL-nfT" kind="relationship" relationship="viewControllers" id="79a-TE-U7k"/>
+                        <segue destination="odt-AD-vXm" kind="relationship" relationship="viewControllers" id="Jzz-qj-Ajn"/>
+                        <segue destination="5eT-Wh-1An" kind="relationship" relationship="viewControllers" id="pQk-5M-q3w"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4SO-N5-vvp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7069" y="-6827"/>
+        </scene>
+        <!--TutorSessions-->
+        <scene sceneID="FEs-sb-mOD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TutorSessions" id="gQj-9H-cnk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="b8y-yF-XCg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaU-8a-fkV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6839" y="-6326"/>
+        </scene>
+        <!--TutorStatistics-->
+        <scene sceneID="EXD-6f-cYI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TutorStatistics" id="lol-VL-nfT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="JOq-JT-cdk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCz-Ic-XOH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7069" y="-6326"/>
+        </scene>
+        <!--TutorAvailability-->
+        <scene sceneID="8cQ-d4-Wd3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TutorAvailability" id="Fln-q9-Lve" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="66R-VW-4PH"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jc4-fJ-1Nz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6603" y="-6326"/>
+        </scene>
+        <!--TutorProfile-->
+        <scene sceneID="pxQ-ux-Vcz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TutorProfile" id="5eT-Wh-1An" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Vfm-fJ-r3n"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8e4-ru-biH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7657" y="-6326"/>
+        </scene>
+        <!--TutorInbox-->
+        <scene sceneID="ju6-eB-NoS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TutorInbox" id="odt-AD-vXm" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="rie-fv-yxc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AbV-4t-8ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7277" y="-6326"/>
+        </scene>
+        <!--TutorInbox-->
+        <scene sceneID="KHr-3X-lVX">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="TutorChatVC" storyboardName="TutorInbox" id="Nib-mG-Xnp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C70-Dy-G4s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7464" y="-6326"/>
+        </scene>
+    </scenes>
+</document>
